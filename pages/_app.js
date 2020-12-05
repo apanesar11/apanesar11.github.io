@@ -23,6 +23,11 @@ class MyApp extends App {
 				<Head>
 					<title>Arashdeep Panesar</title>
 					<link rel="icon" href="/favicon.ico" />
+					<style jsx global>{`
+						body {
+							font-family: 'Nunito';
+						}
+					`}</style>
 				</Head>
 				<Component {...pageProps}/>
 			</React.Fragment>
