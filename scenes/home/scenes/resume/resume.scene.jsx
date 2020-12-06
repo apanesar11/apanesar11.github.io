@@ -7,7 +7,6 @@ const constants = {
 };
 
 const Resume = () => {
-
   return (
     <>
       <div style={{
