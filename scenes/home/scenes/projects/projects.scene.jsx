@@ -4,13 +4,14 @@ import {MdOpenInNew} from 'react-icons/md';
 import {RiGithubLine} from 'react-icons/ri';
 import {FaAppStore} from 'react-icons/fa';
 import {RiGooglePlayLine} from 'react-icons/ri';
-import sd from '../../../../assets/sd.png';
-import bravery from '../../../../assets/bravery.png';
-import covid from '../../../../assets/covid.png';
-import onic from '../../../../assets/onic-2.png';
-import person from '../../../../assets/person.png';
-import backtest from '../../../../assets/backtest.png';
-import algotrading from '../../../../assets/algotrading.png';
+
+import sd from '../../../../assets/sd.svg';
+import bravery from '../../../../assets/bravery.svg';
+import covid from '../../../../assets/covid.svg';
+import onic from '../../../../assets/onic-2.svg';
+import person from '../../../../assets/person.svg';
+import backtest from '../../../../assets/backtest.svg';
+import algotrading from '../../../../assets/algotrading.svg';
 
 import { ProjectCard } from './projects.styles';
 
