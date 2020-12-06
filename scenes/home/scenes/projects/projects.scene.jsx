@@ -137,7 +137,7 @@ const Projects = () => {
   );
 
   const renderPills = (title, pills) => (
-    <div className='w-75'>
+    <span>
       {
         pills.map((pill, id) => (
           <span
@@ -149,7 +149,7 @@ const Projects = () => {
           </span>
         ))
       }
-    </div>
+    </span>
   )
 
   return(
