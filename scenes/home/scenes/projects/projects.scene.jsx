@@ -164,7 +164,7 @@ const Projects = () => {
         </Col>
       </Row>
       <Row>
-        <Col md={10} lg={9} xl={8} className='mx-auto'>
+        <Col md={10} className='mx-auto'>
           <Row>
             {
               constants.PROJECTS.map(({title, description, bgImg, icons, pills}, id)=> (
