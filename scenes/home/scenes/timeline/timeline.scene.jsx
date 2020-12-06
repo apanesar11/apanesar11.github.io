@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { MdWork, MdSchool } from 'react-icons/md';
 
 import onic from '../../../../assets/onic.png';
-import anc from '../../../../assets/anc.png';
+import stealth from '../../../../assets/stealth.png';
 import cibc from '../../../../assets/cibc.png';
 import eccc from '../../../../assets/eccc.png';
 import uw from '../../../../assets/uw.png';
@@ -29,11 +29,11 @@ const constants = {
       type: 'job',
       date: 'May 2020 - Present',
       jobTitle: 'Quantitative Developer',
-      company: 'ANC Capital',
+      company: 'Stealth Startup',
       description: 'Algorithmic Trading, Backtesting, Data Analysis, Technical Analysis',
       logo: {
-        alt: 'ANC',
-        img: anc
+        alt: 'Stealth Startup',
+        img: stealth
       }
     },
     {
