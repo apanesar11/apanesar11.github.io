@@ -137,17 +137,19 @@ const Projects = () => {
   );
 
   const renderPills = (title, pills) => (
-    <span>
+    <div className='w-75'>
       {
         pills.map((pill, id) => (
-          <span key={`${title}-pill-${id}`} >
+          <span
+            key={`${title}-pill-${id}`}
+          >
             <Badge pill style={{backgroundColor: '#2E77BD', color: 'white'}}>
               {pill}
             </Badge>{' '}
           </span>
         ))
       }
-    </span>
+    </div>
   )
 
   return(
@@ -162,7 +164,7 @@ const Projects = () => {
         </Col>
       </Row>
       <Row>
-        <Col md={8} className='mx-auto'>
+        <Col md={10} lg={9} xl={8} className='mx-auto'>
           <Row>
             {
               constants.PROJECTS.map(({title, description, bgImg, icons, pills}, id)=> (
@@ -178,7 +180,14 @@ const Projects = () => {
                   >
                     <div className='d-inline-block w-75'>
                       <h4 className='font-weight-bold mb-4' style={{fontSize: '25px'}}>{title}</h4>
-                      <h5 style={{fontSize: '18px'}} className='mb-4'>{description}</h5>
+                      <h5
+                        style={{
+                          fontSize: '18px',
+                          backgroundColor: 'white',
+                          borderRadius: '20px'
+                        }}
+                        className='mb-4'
+                      >{description}</h5>
                       {renderPills(title, pills)}
                     </div>
                     {renderIcons(icons)}

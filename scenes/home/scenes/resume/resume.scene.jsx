@@ -38,7 +38,7 @@ const Resume = () => {
       >
         <Row className=''>
           <Col md={8} className='mx-auto text-center'>
-            <h1 className="display-3 mb-3">{constants.HEADING}</h1>
+            <h1 className="display-3 mb-5">{constants.HEADING}</h1>
             <iframe
               style={{
                 width: '100%',
