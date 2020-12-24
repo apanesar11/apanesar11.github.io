@@ -22,7 +22,7 @@ class MyApp extends App {
 			<React.Fragment>
 				<Head>
 					<title>Arashdeep Panesar</title>
-					<link rel="icon" href="/favicon.ico" />
+					<link rel="icon" href="/icon.svg" />
 					<style jsx global>{`
 						body {
 							font-family: 'Nunito';
